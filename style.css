@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0;}
+
+.main{
+    background: cornsilk;
+}
+.reg_form{
+    width: 60%;
+    margin: 0 auto;
+    background: palevioletred;
+    padding: 40px;
+}
+.container{
+    padding: 16px;
+}
+.container h2{
+font-size: 48px;
+font-family: sans-serif;
+}
+.container p{
+    margin-left: 62px;
+    font-family: cursive;
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-bottom: 2px solid silver;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.Register{
+    background: #7055a5;
+    color: #ddd;
+    padding: 20%;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+}
